@@ -5,8 +5,11 @@ An audit of 99,441 Olist e-commerce orders reveals that nearly 1 in 10 deliverie
 
 ### B. Project Links
 Notebook: 
+
 Dashboard: 
+
 Presentation:
+
 Video Walkthrough: 
 
 ### C. Technical Explanation
