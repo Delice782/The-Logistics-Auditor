@@ -13,10 +13,10 @@ Video Walkthrough:
 
 ### C. Technical Explanation
 
-##### Data Cleaning
+#### Data Cleaning
 Six CSV files were loaded using a relative path helper function that checks both the current directory and /content for Google Colab compatibility, ensuring full reproducibility regardless of environment. Before joining, the reviews table was aggregated by order_id to prevent row duplication caused by multiple reviews per order, which is a common source of inflated row counts in 1-to-many joins. Date columns were cast to datetime before calculating days_difference as the estimated date minus the actual delivery date. Orders with missing delivery dates and those with a status of canceled or unavailable (2,971 orders total) were flagged as Excluded and removed from all analysis, leaving 96,470 clean delivered orders.
 
-##### Candidate's Choice: Monthly Delivery Trend Analysis
+#### Candidate's Choice: Monthly Delivery Trend Analysis
 A dual-axis monthly chart was added to track total order volume and late delivery rate side by side over time. This feature matters to the business because it exposes the relationship between demand spikes and logistics failure: late rates jumped to 16.2% during the November 2017 Black Friday peak and climbed further to 23.85% in March 2018 despite lower volumes. This pattern reveals that Veridi's network has a fixed capacity ceiling and the same delivery promise that works in July breaks in November. The business implication is actionable: implement dynamic delivery windows that automatically add 5 to 7 buffer days during historically high-risk months rather than applying a single nationwide estimate year-round.
 
 Dataset: Kaggle - Olist Brazilian E-Commerce Dataset (https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
