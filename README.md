@@ -6,7 +6,7 @@ An audit of 99,441 Olist e-commerce orders reveals that nearly 1 in 10 deliverie
 ### B. Project Links
 Notebook: https://colab.research.google.com/drive/19AI4R11tRqu7kHqKNaDhJySBE_xOh--K?usp=sharing
 
-Dashboard: 
+Dashboard: https://the-logistics-auditor-cxnaive8z42zbtybnxpt6s.streamlit.app/
 
 Presentation: https://www.canva.com/design/DAHE3GBpLWE/KiKAOq8yDV4iz8-efMEmng/edit?utm_content=DAHE3GBpLWE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
