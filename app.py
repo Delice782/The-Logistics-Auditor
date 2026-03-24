@@ -9,7 +9,9 @@ st.caption("Olist Brazilian E-Commerce Dataset | AmaliTech Capstone")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv('veridi_master_dashboard_data.csv')
+    file_id = '1giss0ZoHzMd-VjfdZokiTjFpX0G_QIqV'
+    url = f'https://drive.google.com/uc?id={file_id}'
+    df = pd.read_csv(url)
     df['order_purchase_timestamp'] = pd.to_datetime(df['order_purchase_timestamp'], errors='coerce')
     return df
 
