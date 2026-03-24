@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Veridi Logistics Auditor", layout="wide")
 
 st.title("Veridi Logistics — Last Mile Delivery Audit")
-st.caption("Olist Brazilian E-Commerce Dataset | AmaliTech Capstone")
+st.caption("Olist Brazilian E-Commerce Dataset | AmaliTech Practical Capstone Challenge")
 
 @st.cache_data
 def load_data():
