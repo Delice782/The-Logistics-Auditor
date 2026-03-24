@@ -8,7 +8,7 @@ Notebook:
 
 Dashboard: 
 
-Presentation:
+Presentation: https://www.canva.com/design/DAHE3GBpLWE/KiKAOq8yDV4iz8-efMEmng/edit?utm_content=DAHE3GBpLWE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 Video Walkthrough: 
 
