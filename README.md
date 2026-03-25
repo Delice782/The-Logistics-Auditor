@@ -20,4 +20,4 @@ Six CSV files were loaded using a relative path helper function that checks both
 #### Candidate's Choice: Monthly Delivery Trend Analysis
 This analysis tracks how late delivery rates change month by month alongside total order volume. Veridi applies the same delivery estimate regardless of the time of year, but the data shows that the logistics network cannot maintain consistent performance during high demand periods. Late delivery rates spiked to 16.2% in November 2017 and rose even higher to 23.85% in March 2018, while the baseline rate in quieter months sits around 8%. This gap between peak and off-peak performance reveals a capacity problem that a fixed delivery promise cannot absorb. Veridi needs to implement seasonal delivery windows that automatically extend estimates by 5 to 7 days during historically high-risk months so that customers receive honest timelines instead of broken promises.
 
-Dataset: Kaggle - Olist Brazilian E-Commerce Dataset (https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+Dataset: Kaggle - [Olist Brazilian E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
