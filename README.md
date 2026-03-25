@@ -2,7 +2,7 @@
 
 ### A. Executive Summary
 An audit of 99,441 Olist e-commerce orders reveals that nearly 1 in 10 deliveries (8%) arrive after the promised date, directly driving negative customer reviews. Super Late deliveries (5+ days past estimate) receive an average review score of just 1.86 out of 5, compared to 4.29 for on-time deliveries, a 2.43-point collapse in customer satisfaction. The problem is not nationwide as it is concentrated in Brazil's north and northeast, where Alagoas (AL) records a 27.2% late delivery rate more than double the national average of 11.78%. Analysis also shows that late rates spike during peak months like November and March, suggesting the logistics network hits a fixed capacity ceiling under high demand. The core finding is clear: Veridi is over-promising and under-delivering to specific regions and during specific seasons, and the customer reviews prove it.
-
+ 
 ### B. Project Links
 Notebook: https://colab.research.google.com/drive/19AI4R11tRqu7kHqKNaDhJySBE_xOh--K?usp=sharing
 
