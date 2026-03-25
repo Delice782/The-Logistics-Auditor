@@ -10,8 +10,6 @@ Dashboard: https://the-logistics-auditor-cxnaive8z42zbtybnxpt6s.streamlit.app/
 
 Presentation: https://drive.google.com/file/d/1Q-OqtXkbWhTncV-Aefbwvm051xb_cqn-/view?usp=sharing
 
-Video Walkthrough: 
-
 ### C. Technical Explanation
 
 #### Data Cleaning
