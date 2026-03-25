@@ -27,7 +27,7 @@ k1.metric("Total Orders", f"{total:,}")
 k2.metric("Late Delivery Rate", f"{late_pct:.1f}%")
 k3.metric("Avg Review Score", f"{avg_review:.2f} / 5")
 
-st.subheader("Story 3 — Late Delivery Rate by State")
+st.subheader("Late Delivery Rate by State")
 
 state_stats = (
     df.groupby('customer_state')
@@ -50,7 +50,7 @@ plt.tight_layout()
 st.pyplot(fig)
 plt.close()
 
-st.subheader("Story 4 — Average Review Score by Delivery Status")
+st.subheader("Average Review Score by Delivery Status")
 
 avg_by_status = (
     df.groupby('delivery_status')['review_score']
@@ -77,7 +77,7 @@ plt.tight_layout()
 st.pyplot(fig)
 plt.close()
 
-st.subheader("Story 4 — Delivery Delay vs Review Score")
+st.subheader("Delivery Delay vs Review Score")
 
 scatter_data = df[df['review_score'].notna() & df['Days_Difference'].notna()]
 delay_sentiment = scatter_data.groupby('Days_Difference')['review_score'].mean().reset_index()
@@ -94,7 +94,7 @@ plt.tight_layout()
 st.pyplot(fig)
 plt.close()
 
-st.subheader("Candidate's Choice — Monthly Late Delivery Rate Over Time")
+st.subheader("Monthly Late Delivery Rate Over Time")
 
 monthly = (
     df.groupby('order_year_month')
@@ -132,7 +132,7 @@ plt.tight_layout()
 st.pyplot(fig)
 plt.close()
 
-st.subheader("Bonus — Late Rate by Product Category (English)")
+st.subheader("Late Rate by Product Category")
 
 cat_stats = (
     df[df['product_category_name_english'].notna()]
