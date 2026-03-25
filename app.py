@@ -26,7 +26,7 @@ st.subheader("Key Metrics")
 k1, k2, k3 = st.columns(3)
 k1.metric("Orders Analyzed", f"{total:,}")
 k2.metric("Late Delivery Rate", f"{late_pct:.1f}%")
-k3.metric("Avg Review Score", f"{avg_review:.2f} / 5")
+k3.metric("Average Review Score", f"{avg_review:.2f} / 5")
 
 st.subheader("Late Delivery Rate by State")
 
