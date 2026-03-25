@@ -9,7 +9,7 @@ st.caption("Olist Brazilian E-Commerce Dataset | AmaliTech Practical Capstone Ch
 
 @st.cache_data
 def load_data():
-    file_id = '1giss0ZoHzMd-VjfdZokiTjFpX0G_QIqV'
+    file_id = '1TWbJodlctgH0XOrEXA6emUoz2nsqYNca'
     url = f'https://drive.google.com/uc?id={file_id}'
     df = pd.read_csv(url)
     df['order_purchase_timestamp'] = pd.to_datetime(df['order_purchase_timestamp'], errors='coerce')
