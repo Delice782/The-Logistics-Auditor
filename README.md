@@ -1,14 +1,14 @@
 # The "Last Mile" Logistics Auditor
 
 ### A. Executive Summary
-An audit of 99,441 Olist e-commerce orders reveals that nearly 1 in 10 deliveries (9.6%) arrive after the promised date, directly driving negative customer reviews. Super Late deliveries (5+ days past estimate) receive an average review score of just 1.86 out of 5, compared to 4.30 for on-time deliveries, a 2.44-point collapse in customer satisfaction. The problem is not nationwide as it is concentrated in Brazil's north and northeast, where Alagoas (AL) records a 27.2% late delivery rate more than double the national average of 11.78%. Analysis also shows that late rates spike during peak months like November and February, suggesting the logistics network hits a fixed capacity ceiling under high demand. The core finding is clear: Veridi is over-promising and under-delivering to specific regions and during specific seasons, and the customer reviews prove it.
+An audit of 94,496 Olist e-commerce orders reveals that nearly 1 in 10 deliveries (8%) arrive after the promised date, directly driving negative customer reviews. Super Late deliveries (5+ days past estimate) receive an average review score of just 1.86 out of 5, compared to 4.29 for on-time deliveries, a 2.43-point collapse in customer satisfaction. The problem is not nationwide as it is concentrated in Brazil's north and northeast, where Alagoas (AL) records a 27.2% late delivery rate more than double the national average of 11.78%. Analysis also shows that late rates spike during peak months like November and March, suggesting the logistics network hits a fixed capacity ceiling under high demand. The core finding is clear: Veridi is over-promising and under-delivering to specific regions and during specific seasons, and the customer reviews prove it.
 
 ### B. Project Links
 Notebook: https://colab.research.google.com/drive/19AI4R11tRqu7kHqKNaDhJySBE_xOh--K?usp=sharing
 
 Dashboard: https://the-logistics-auditor-cxnaive8z42zbtybnxpt6s.streamlit.app/
 
-Presentation: https://www.canva.com/design/DAHE3GBpLWE/KiKAOq8yDV4iz8-efMEmng/edit?utm_content=DAHE3GBpLWE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+Presentation: https://drive.google.com/file/d/1Q-OqtXkbWhTncV-Aefbwvm051xb_cqn-/view?usp=sharing
 
 Video Walkthrough: 
 
